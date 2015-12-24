@@ -8,8 +8,7 @@ wave = sound.Sound(value = 500)
 def sine_wave(freq = 100, sample_rate = 44100, duration = 1):
     """
 
-    Produces a trianglewave PsychoPy/PyGame object. Linearly interpolates between
-    the minimum and the maximum.
+    Produces a sinewave PsychoPy/PyGame object.
 
     freq: frequency in Hz
     sample_rate: well, sample rate

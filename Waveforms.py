@@ -3,8 +3,6 @@ __author__ = 'Martijn Schut'
 from psychopy import sound
 import math
 
-wave = sound.Sound(value = 500)
-
 def sine_wave(freq = 100, sample_rate = 44100, duration = 1):
     """
 
